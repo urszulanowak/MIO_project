@@ -4,8 +4,6 @@ from models import build_autoencoder, build_decoder, build_encoder
 import matplotlib.pyplot as plt
 import numpy as np
 
-from skimage.metrics import structural_similarity as ssim
-
 def main():
     X_train, X_test = load_data_sets()
     print(X_train.shape[1])
