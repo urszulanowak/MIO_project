@@ -56,6 +56,7 @@ def main(model_name="base",epoch_count=50,batch_size=256, X_train=[], X_test=[],
     encoder.save("models/"+model_name+"/"+model_name+"_encoder.keras")
     decoder.save("models/"+model_name+"/"+model_name+"_decoder.keras")
 
+    plt.clf()
     plt.plot(history.history['loss'])
     plt.plot(history.history['val_loss'])
     plt.title('Model loss')

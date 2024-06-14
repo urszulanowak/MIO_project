@@ -2,8 +2,8 @@ Model name: base
 Epochs: 50
 batch size: 256
 encoding dimension:32
-Mean Squared Error:0.008089154609126455
-Mean Absolute Error:0.0447423525304091
+Mean Squared Error:0.007021077521274182
+Mean Absolute Error:0.0413611059736589
 layers: [(64, 'relu'), (32, 'relu')]
 Data:
 Testing on 21892 records
@@ -11,11 +11,11 @@ Each record contains 187 points
 
 Errors:
 For entire set:
-Mean Squared Error:0.009281620590395265
-Mean Absolute Error:0.04910528088499061
+Mean Squared Error:0.008301007910818302
+Mean Absolute Error:0.04605100257696029
 
 Key values:
-mse_max=mse[20104]=0.16652137368777178
-mse_min=mse[9858]=0.0006752473035826752
-mse_mid=mse[19750]=0.0797865949405703
-mse_med=mse[2001]=0.007947111064705959
+mse_max=mse[19240]=0.1950366359870125
+mse_min=mse[9166]=0.0005669470297039737
+mse_mid=mse[19942]=0.09662646579601866
+mse_med=mse[9169]=0.006864723854986746

@@ -2,8 +2,8 @@ Model name: encode16
 Epochs: 100
 batch size: 256
 encoding dimension:32
-Mean Squared Error:0.005367874461048782
-Mean Absolute Error:0.035852943246192835
+Mean Squared Error:0.005070865342985452
+Mean Absolute Error:0.03526299035713468
 layers: [(64, 'relu'), (32, 'relu')]
 Data:
 Testing on 21892 records
@@ -11,11 +11,11 @@ Each record contains 187 points
 
 Errors:
 For entire set:
-Mean Squared Error:0.006409829556129952
-Mean Absolute Error:0.03995226101379294
+Mean Squared Error:0.006102022817849824
+Mean Absolute Error:0.03928853626481719
 
 Key values:
-mse_max=mse[19240]=0.15128386063129254
-mse_min=mse[4527]=0.0003909672970376635
-mse_mid=mse[20031]=0.07611574589431973
-mse_med=mse[5342]=0.005192260293868731
+mse_max=mse[20104]=0.1606318215777693
+mse_min=mse[4527]=0.0003241671687012082
+mse_mid=mse[19750]=0.0844906523475639
+mse_med=mse[2195]=0.00489207768339197

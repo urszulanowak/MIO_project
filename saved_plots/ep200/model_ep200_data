@@ -2,8 +2,8 @@ Model name: ep200
 Epochs: 200
 batch size: 256
 encoding dimension:32
-Mean Squared Error:0.0033071246402233533
-Mean Absolute Error:0.028680039193931015
+Mean Squared Error:0.003020800288690289
+Mean Absolute Error:0.02731615051326971
 layers: [(64, 'relu'), (32, 'relu')]
 Data:
 Testing on 21892 records
@@ -11,11 +11,11 @@ Each record contains 187 points
 
 Errors:
 For entire set:
-Mean Squared Error:0.004020745190834461
-Mean Absolute Error:0.03186616442721854
+Mean Squared Error:0.003760445968251934
+Mean Absolute Error:0.03079458683817821
 
 Key values:
-mse_max=mse[19240]=0.13232525713494236
-mse_min=mse[15998]=0.0002753771783110826
-mse_mid=mse[19750]=0.062240105643758946
-mse_med=mse[9030]=0.0030734464282173024
+mse_max=mse[19240]=0.15673489601667825
+mse_min=mse[6378]=0.00017267163117419917
+mse_mid=mse[18160]=0.08228543785026006
+mse_med=mse[10424]=0.0027200756452404077

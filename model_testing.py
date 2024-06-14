@@ -70,7 +70,7 @@ def model_testing(model_name :str, test_set):
     mae_plt.label_outer()
     mse_plt.label_outer()
     fig.align_labels()
-    plt.savefig(str("saved_plots/"+model_name+"/Error_values.png"), dpi=600)
+    fig.savefig(str("saved_plots/"+model_name+"/Error_values.png"), dpi=600)
 
     #indeksy kluczowe
     
@@ -121,6 +121,6 @@ def model_testing(model_name :str, test_set):
     plot_axis[2,0].set(ylabel='decoded')
 
     fig2.align_labels()
-    plt.savefig("saved_plots/"+model_name+"/Key_values.png", dpi=600)
+    fig2.savefig("saved_plots/"+model_name+"/Key_values.png", dpi=600)
     f.close()
 

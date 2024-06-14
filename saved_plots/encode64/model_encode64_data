@@ -2,8 +2,8 @@ Model name: encode64
 Epochs: 100
 batch size: 256
 encoding dimension:32
-Mean Squared Error:0.0051511784009455885
-Mean Absolute Error:0.03510398442544857
+Mean Squared Error:0.004952126951115689
+Mean Absolute Error:0.03444884863380869
 layers: [(64, 'relu'), (32, 'relu')]
 Data:
 Testing on 21892 records
@@ -11,11 +11,11 @@ Each record contains 187 points
 
 Errors:
 For entire set:
-Mean Squared Error:0.006210007288189745
-Mean Absolute Error:0.03932600983814102
+Mean Squared Error:0.005818182925928493
+Mean Absolute Error:0.03816883548312814
 
 Key values:
-mse_max=mse[19240]=0.16909696596391596
-mse_min=mse[4527]=0.0003016508890748215
-mse_mid=mse[18160]=0.0775295188497661
-mse_med=mse[1515]=0.004954159224046697
+mse_max=mse[19240]=0.19237786681675534
+mse_min=mse[4527]=0.00031489470735503275
+mse_mid=mse[20031]=0.08949441958669929
+mse_med=mse[8133]=0.0047275975935707915
