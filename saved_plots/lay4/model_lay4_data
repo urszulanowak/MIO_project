@@ -1,0 +1,21 @@
+Model name: lay4
+Epochs: 50
+batch size: 256
+encoding dimension:32
+Mean Squared Error:0.00961754595452368
+Mean Absolute Error:0.04790699453106682
+layers: [(32, 'relu'), (16, 'relu'), (32, 'relu')]
+Data:
+Testing on 21892 records
+Each record contains 187 points
+
+Errors:
+For entire set:
+Mean Squared Error:0.010766811227112136
+Mean Absolute Error:0.05197800716694398
+
+Key values:
+mse_max=mse[20104]=0.16813678971382215
+mse_min=mse[10614]=0.0008033211139606699
+mse_mid=mse[19996]=0.07824114733839664
+mse_med=mse[391]=0.00930153169367689

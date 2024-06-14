@@ -1,0 +1,21 @@
+Model name: lay2
+Epochs: 50
+batch size: 256
+encoding dimension:32
+Mean Squared Error:0.010366095939303255
+Mean Absolute Error:0.05042843006313226
+layers: [(32, 'relu'), (8, 'relu'), (32, 'relu')]
+Data:
+Testing on 21892 records
+Each record contains 187 points
+
+Errors:
+For entire set:
+Mean Squared Error:0.011364884399011309
+Mean Absolute Error:0.054269564541320654
+
+Key values:
+mse_max=mse[19240]=0.13101916854105264
+mse_min=mse[9858]=0.0009079888594606283
+mse_mid=mse[20031]=0.06692438316799025
+mse_med=mse[6701]=0.009844174257677306
